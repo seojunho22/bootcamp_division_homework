@@ -9,7 +9,7 @@ int main(void) {
 	int num;
 	int i = 1;
 	int j;
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 	while (num) {
 		j = num % 10;
 		num /= 10;

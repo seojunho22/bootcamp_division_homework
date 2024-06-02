@@ -9,7 +9,7 @@ int main(void) {
 	int num;
 	int total = 0;
 	while (1) {
-		scanf_s("%d", &num);
+		scanf("%d", &num);
 		if (num > 0) {
 			break;
 		}

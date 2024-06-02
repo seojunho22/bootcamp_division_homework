@@ -7,8 +7,8 @@
 
 int main(void) {
 	int age, height;
-	scanf_s("%d", &age);
-	scanf_s("%d", &height);
+	scanf("%d", &age);
+	scanf("%d", &height);
 	if (age < 14) {
 		if (height < 160) {
 			printf("O");

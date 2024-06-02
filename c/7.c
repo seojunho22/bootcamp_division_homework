@@ -7,9 +7,9 @@
 
 int main(void) {
 	int year, month;
-	scanf_s("%d", &year);
+	scanf("%d", &year);
 	while (1) {
-		scanf_s("%d", &month);
+		scanf("%d", &month);
 		if (month > 0 && month < 13) {
 			break;
 		}

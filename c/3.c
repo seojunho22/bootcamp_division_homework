@@ -8,7 +8,7 @@
 int main() {
 	int time;
 	while (1) {
-		scanf_s("%d", &time);
+		scanf("%d", &time);
 		if (time >= 0 && time < 24) {
 			break;
 		}

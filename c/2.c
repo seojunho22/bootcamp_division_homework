@@ -7,7 +7,7 @@
 
 int main() {
     int a;
-    scanf_s("%d", &a);
+    scanf("%d", &a);
     if (a > 60) {
         printf("DISCOUNT\nBOARD");
     }

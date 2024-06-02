@@ -7,7 +7,7 @@
 
 int main(void) {
 	char alp;
-	scanf_s("%c", &alp);
+	scanf("%c", &alp);
 	if (alp == 97 || alp == 101 || alp == 105 || alp == 111 || alp == 117) {
 		printf("O");
 	}

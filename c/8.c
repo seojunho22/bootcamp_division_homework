@@ -8,7 +8,7 @@
 int main(void) {
 	int num;
 	int add = 0, fac = 1;
-	scanf_s("%d", &num);
+	scanf("%d", &num);
 	for (int i = 0; i < num; i++) {
 		add += i + 1;
 	}

@@ -7,7 +7,7 @@
 
 int main() {
 	int score;
-	scanf_s("%d", &score);
+	scanf("%d", &score);
 	if (score < 0 || score > 100) {
 		printf("잘 못 입력하였습니다.");
 	}
