@@ -5,8 +5,20 @@
 
 #include <stdio.h>
 
-int main() {
-    // 이곳에 코드를 작성해주세요!
-
-    return 0;
+int main(void) {
+	int age, height;
+	scanf_s("%d", &age);
+	scanf_s("%d", &height);
+	if (age < 14) {
+		if (height < 160) {
+			printf("O");
+		}
+		else {
+			printf("X");
+		}
+	}
+	else {
+		printf("X");
+	}
+	return 0;
 }

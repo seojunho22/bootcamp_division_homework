@@ -6,7 +6,14 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
-
+    int a;
+    scanf_s("%d", &a);
+    if (a > 60) {
+        printf("DISCOUNT\nBOARD");
+    }
+    else
+    {
+        printf("BOARD");
+    }
     return 0;
 }

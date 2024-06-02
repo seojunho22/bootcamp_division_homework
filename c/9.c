@@ -5,8 +5,19 @@
 
 #include <stdio.h>
 
-int main() {
-    // 이곳에 코드를 작성해주세요!
-
-    return 0;
+int main(void) {
+	int num;
+	int total = 0;
+	while (1) {
+		scanf_s("%d", &num);
+		if (num > 0) {
+			break;
+		}
+		printf("X\n");
+	}
+	for (int i = 0; i < num; i++) {
+		total += i + 1;
+	}
+	printf("%d", total);
+	return 0;
 }

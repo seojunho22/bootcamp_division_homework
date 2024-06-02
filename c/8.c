@@ -5,8 +5,16 @@
 
 #include <stdio.h>
 
-int main() {
-    // 이곳에 코드를 작성해주세요!
-
-    return 0;
+int main(void) {
+	int num;
+	int add = 0, fac = 1;
+	scanf_s("%d", &num);
+	for (int i = 0; i < num; i++) {
+		add += i + 1;
+	}
+	for (int j = 0; j < num; j++) {
+		fac *= j + 1;
+	}
+	printf("%d\n%d", add, fac);
+	return 0;
 }

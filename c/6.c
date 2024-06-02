@@ -5,8 +5,14 @@
 
 #include <stdio.h>
 
-int main() {
-    // 이곳에 코드를 작성해주세요!
-
-    return 0;
+int main(void) {
+	char alp;
+	scanf_s("%c", &alp);
+	if (alp == 97 || alp == 101 || alp == 105 || alp == 111 || alp == 117) {
+		printf("O");
+	}
+	else {
+		printf("X");
+	}
+	return 0;
 }
